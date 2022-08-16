@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  align-items: flex-end;
+
+  @media (max-width: $tablet-max) {
+   flex-wrap: wrap;
+    }
+    @media (max-width: $mobile-max) {
+   display: block;
+    }
+
+}
+
+.form-field {
+  flex-basis: 33.33%;
+  text-align: left;
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+     }
+
+    @media (max-width: $mobile-max) {
+     flex-basis: 100%;
+     margin-bottom: 30px;
+    }
+
+}
+
+.form-field-part {
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 100%;
+     }
+}
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 20px;
+line-height: 27px;
+
+}
+
+.form-input {
+  padding: 35px;
+  font-size: 28px;
+line-height: 34px;
+background-color: $color-light;
+border-radius: 6px;
+border: none;
+}

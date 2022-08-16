@@ -1,0 +1,30 @@
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.social-tel {
+  margin-right: 45px;
+  font-size: 28px;
+line-height: 38px;
+color: $color-light;
+text-decoration: none;
+}
+.social {
+  display: flex;
+  list-style: none;
+}
+
+.social-item {
+  margin-left: 15px;
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
