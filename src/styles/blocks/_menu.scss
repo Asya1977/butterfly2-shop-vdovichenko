@@ -7,7 +7,7 @@
     width: 100%;
     padding: 20px;
     background-color: $color-dark;
-    border-top: 1px solid $color-light;
+    border-top: 1px solid $color-accent;
   }
 }
 
@@ -26,10 +26,14 @@
 }
 
 .menu-item {
-  // display: block;
-  // margin: 0 30px;
+list-style: none;
+text-align: center;
 
+@media (max-width: $mobile-max) {
+ margin: 20px 15px;
 }
+}
+
 .menu-link {
 display: block;
 padding: 33px 25px;
@@ -43,5 +47,10 @@ color: $color-light;
 &:hover,
 &.active {
   background-color: $color-accent;
+}
+@media (max-width: $mobile-max) {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
 }
 }

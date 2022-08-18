@@ -31,7 +31,7 @@ color: $color-dark;
 font-size: 22px;
 line-height: 24px;
 text-decoration: none;
-color: blackrgba(0, 0, 0, 0.8);
+color: rgba(0, 0, 0, 0.8);
 &.active {
   color: $color-accent;
 }

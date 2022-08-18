@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+
+
 }
 
 .social-tel {
@@ -10,6 +12,10 @@
 line-height: 38px;
 color: $color-light;
 text-decoration: none;
+
+@media (max-width: $mobile-max) {
+ margin: 0 0 15px;
+ }
 }
 .social {
   display: flex;
